@@ -65,7 +65,7 @@ frontend_update() {
   rm -rf build
   npm run build
   pm2 start ${instancia_add}-frontend
-  pm2 save
+  pm2 save --force
 EOF
 
   sleep 2
