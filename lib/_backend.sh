@@ -164,7 +164,7 @@ backend_update() {
   npx sequelize db:migrate
   npx sequelize db:seed
   pm2 start ${instancia_add}-backend
-  pm2 save 
+  pm2 save --force
 EOF
 
   sleep 2
