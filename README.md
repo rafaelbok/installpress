@@ -28,7 +28,7 @@ sudo apt install -y git && git clone https://github.com/rafaelbok/installpress.g
 
 ACESSANDO DIRETORIO DO INSTALADOR & INICIANDO INSTALAÇÕES ADICIONAIS (USAR ESTE COMANDO PARA SEGUNDA OU MAIS INSTALAÇÃO:
 ```bash
-cd && cd ./instalador && sudo ./install_instancia
+cd /home/wasap/instalador && sudo ./install_instancia
 ```
 ## Recursos 
 - Multi instalador ilimitado
