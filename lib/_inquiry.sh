@@ -107,8 +107,8 @@ inquiry_options() {
   print_banner
   printf "${WHITE} 💻 Bem vindo(a) ao instalador Press Ticket, Selecione abaixo a proxima ação!${GRAY_LIGHT}"
   printf "\n\n"
-  printf "   [1] Instalar o Press Ticket\n"
-  printf "   [2] Atualizar o Press Ticket\n"
+  printf "   [1] Instalar o WaSap\n"
+  printf "   [2] Atualizar o WaSap\n"
   printf "\n"
   read -p "> " option
 
