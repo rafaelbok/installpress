@@ -76,7 +76,7 @@ get_phpmyadmin_port() {
 get_mysql_port() {
   
   print_banner
-  printf "${WHITE} 💻 Digite a porta MYSQL para ${instancia_add}; Ex: 3306 (3306, 3307...) ${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Digite a porta MYSQL para ${instancia_add}; Ex: 9000 (9000, 9001...) ${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " mysql_port
 }
